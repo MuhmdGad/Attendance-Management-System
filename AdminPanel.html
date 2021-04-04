@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="./css/all.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body>
+
+   <!-- navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-5" href="login.html">Attendance <span id="mgspan"> Management </span> System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="Login.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Attendance.html">Attendance</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="AdminPanel.html">Admin Panel</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="bigCnt">
+   
+        <div class="container">
+
+            <div id="wrapper" class=" py-5">
+
+                <h2 class="text-center mb-4 mt-5" id="username">Admin Panel</h2>
+                <nav class="d-block">
+                    <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                        <a class="nav-link active" id="nav-monthly-tab" data-toggle="tab" href="#all-emp" role="tab"
+                            aria-controls="all-emp" aria-selected="true">All Employees</a>
+                        <a class="nav-link" id="full-report-tab" data-toggle="tab" href="#full-report" role="tab"
+                            aria-controls="full-report" aria-selected="false">Full Report</a>
+                        <a class="nav-link" id="late-report-tab" data-toggle="tab" href="#late-report" role="tab"
+                            aria-controls="late-report" aria-selected="false">Late Report</a>
+                        <a class="nav-link" id="excuse-report-tab" data-toggle="tab" href="#excuse-report" role="tab"
+                            aria-controls="excuse-report" aria-selected="false">Excuse Report</a>
+                        <a class="nav-link" id="brief-tab" data-toggle="tab" href="#brief-report" role="tab"
+                            aria-controls="brief-report" aria-selected="false">Employee Brief</a>
+                    </div>
+                </nav>
+                <div class="tab-content d-block" id="nav-tabContent">
+                    <div class="tab-pane fade show active" id="all-emp" role="tabpanel" aria-labelledby="all-emp-tab">
+                        <table class="table admin-table" id="reportstable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Attendance</th>
+                                    <th scope="col">Late</th>
+                                    <th scope="col">Excuse</th>
+                                </tr>
+                            </thead>
+                            <tbody id="all-reports">
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="full-report" role="tabpanel" aria-labelledby="full-report-tab">
+                        <table class="table admin-table" id="reportstable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Attendance</th>
+                                    <th scope="col">Late</th>
+                                    <th scope="col">Excuse</th>
+                                    <th scope="col">Absent</th>
+                                </tr>
+                            </thead>
+                            <tbody id="full-reports">
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="late-report" role="tabpanel" aria-labelledby="late-report-tab">
+                        <table class="table late-table" id="reportstable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Late</th>
+                                </tr>
+                            </thead>
+                            <tbody id="late-reports">
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+
+                    <div class="tab-pane fade" id="excuse-report" role="tabpanel" aria-labelledby="excuse-report-tab">
+                        <table class="table excuse-table" id="reportstable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Excuse</th>
+                                </tr>
+                            </thead>
+                            <tbody id="excuse-reports">
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="brief-pane fade" id="brief-report" role="tabpanel" aria-labelledby="brief-report-tab">
+                        <table class="table admin-table" id="reportstable">
+                            <thead>
+                                <tr>
+                                    <th scope="col">Employee Name</th>
+                                    <th scope="col">Age</th>
+                                    <th scope="col">Email</th>
+                                    <th scope="col">Address</th>
+                                </tr>
+                            </thead>
+                            <tbody id="brief-reports">
+                                <tr>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- script file -->
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+    <!-- Popper + Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+
+
+        <script src="./js/main.js"></script>
+
+
+</body>
+
+</html>

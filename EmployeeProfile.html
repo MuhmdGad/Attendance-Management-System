@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Employee Profile</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+        integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/profile.css">
+
+
+
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand ml-5" href="login.html">Attendance <span id="mgspan"> Management </span>
+                System</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <a class="navbar-brand ml-5" href="Attendance.html">Employee Attendance</a>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Main Wrapper Start -->
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 empCard ">
+                <p class="h4" id="empData"></p>
+            </div>
+            <section class="down col-md-6" id="down">
+                <div class="mb-3">
+                    <p id="employee_name"> <span> Employee Name: </span> </p>
+                    <p id="employee_attend_time"> <span> Attendance Time: </span> </p>
+                </div>
+                <button class="btn btn-secondary btn-lg" id="close_butt">Close</button>
+            </section>
+            <div class="col-md-6 showdetails">
+                <div class="menu">
+                    <!-- <a  id="showall all">All</a> -->
+                    <a class="showSingle daily" target="1">Daily Report</a>
+                    <a class="showSingle monthly" target="2">Monthly Report</a>
+                </div>
+
+                <section class="cnt">
+                    <div id="div1" class="targetDiv">
+                        Daily Report
+
+                    </div>
+                    <div id="div2" class="targetDiv">
+                        Monthly Report
+
+                    </div>
+                </section>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Wrapper End -->
+
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+
+    <!-- Popper + Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+
+    <!-- smtp send emails -->
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
