@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(../img/profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar {
+    font-size: 20px;
+    padding: 20px 20px ;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-image: linear-gradient(65deg, black, transparent);
+}
+.navbar-nav{
+    
+    padding-left: 70%;
+
+}
+.showdetails {
+    margin: 30px auto;
+}
+
+.empCard {
+    margin: 30px auto;
+    background-color: #27302F;
+    padding: 20px;
+    opacity: 0.9;
+    color: blanchedalmond;
+    border-radius: 10px;
+    height: fit-content;
+    background-image: linear-gradient(191deg, black, transparent);
+}
+
+#login,#mgspan {
+    color: #ffc800;
+}
+
+div.menu{
+  
+    margin: 5% 10%;
+    background: transparent;
+ }
+ 
+ a, #showall{
+    display:inline-block;
+    margin:0 1%;
+    padding:2%;
+    border-radius: 10%;
+    -webkit-box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.2);
+    box-shadow: 0px 3px 11px 2px rgba(0,0,0,0.2);
+ }
+
+ .menu a:nth-child(1){
+   background:#E63946; 
+    color: #eee;
+    margin-top: 5px;
+ }
+ .menu a:nth-child(2){
+     background:#F1FAEE; 
+    color: #222;
+ }
+ .menu a:nth-child(3){
+    background: #A8DADC; 
+     color: #222;
+   
+ }
+ .menu a:nth-child(4){
+    background: #457B9D;
+    color: #eee;
+ }
+ .menu a:nth-child(5){
+    background: #1D3557;  
+    color: #eee;
+ }
+ 
+
+ .targetDiv{
+    background-color: #16181B;
+    background-image: linear-gradient(181deg, black,#384552a1, transparent);
+    padding: 20px;
+    min-height: 50px;
+    margin-bottom: 10px;
+    color: whitesmoke;
+    display: none;
+    border-radius: 20px;
+ }
+ 
+ .targetDiv span{
+    color: rgb(236, 158, 13);
+ }
+
+ .down {
+    height: 200px;
+    margin: auto;
+    margin-left: 0px;
+    padding-top: 50px;
+    margin-top: -60px;
+    padding-left: 60px;
+    color: blanchedalmond;
+
+}
+
+
+.cnt{
+    margin: 5% 10%;
+    background: transparent;
+ }
+.show-data{
+    background-image: linear-gradient(191deg, black, transparent);
+    padding:20px;
+    margin: 38px auto;
+    background-color: #27302F;
+    opacity: 0.9;
+    border-radius: 10px;
+    height: fit-content;
+}
