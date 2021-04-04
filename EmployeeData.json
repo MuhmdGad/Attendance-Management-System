@@ -1,0 +1,141 @@
+{
+  "users": [
+    {
+      "id": 64139,
+      "username": "Mohamed",
+      "password": "iti41",
+      "firstname": "Muhammad",
+      "lastname": "Taha",
+      "address": "Alkapoty,Aldawahy,PortSaid",
+      "email": "MuhammadTahaGad@gmail.com",
+      "age": "27",
+      "role": "admin",
+      "late": [],
+      "attend": [
+        "2/1/2021",
+        "2/2/2021",
+        "2/3/2021",
+        "2/4/2021",
+        "2/5/2021",
+        "2/6/2021",
+        "2/7/2021",
+        "2/8/2021",
+        "2/9/2021",
+        "2/10/2021",
+        "2/11/2021"
+      ],
+      "absent": [
+        "3/9/2021"
+      ]
+    },
+    {
+      "id": 10001,
+      "username": "ahmed2222",
+      "password": "usr44456",
+      "firstname": "Ahmed",
+      "lastname": "Beheiry",
+      "address": "El-Gharbia,Tanta",
+      "email": "AhmedMahmoudBehery@yahoo.com",
+      "age": "24",
+      "role": "employee",
+      "late": [
+        "2/7/2021 - has excuse",
+        "7/8/2021",
+        "2/11/2021- has excuse"
+      ],
+      "attend": [
+        "2/6/2021",
+        "2/10/2021",
+        "2/11/2021"
+      ],
+      "absent": [
+        "2/5/2021",
+        "2/4/2021",
+        "2/3/2021"
+      ]
+    },
+    {
+      "id": 81445,
+      "username": "mohamed76158",
+      "password": "usr94915",
+      "firstname": "Mohamed",
+      "lastname": "Zayan",
+      "address": "El-Gharbia,El-Mahala",
+      "email": "MohamedShabanZayan@yahoo.com",
+      "age": "24",
+      "role": "employee",
+      "late": [
+        "2/10/2021",
+        "2/9/2021",
+        "2/8/2021",
+        "2/11/2021- has excuse"
+      ],
+      "attend": [
+        "2/7/2021",
+        "2/6/2021"
+      ],
+      "absent": [
+        "2/11/2021",
+        "2/13/2021",
+        "4/4/2021"
+      ]
+    },
+    {
+      "id": 47170,
+      "username": "mohamed30179",
+      "password": "usr98754",
+      "firstname": "Mohamed",
+      "lastname": "Elbermawy",
+      "address": "El-Dakahliya,Mansoura,MitGhamer",
+      "email": "mohamed77bermawy@gmail.com",
+      "age": "26",
+      "role": "employee",
+      "late": [
+        "2/10/2021- has excuse",
+        "2/11/2021"
+      ],
+      "attend": [
+        "2/3/2021",
+        "2/4/2021",
+        "2/5/2021",
+        "2/6/2021",
+        "2/7/2021"
+      ],
+      "absent": [
+        "2/2/2021",
+        "2/13/2021"
+      ]
+    },
+    {
+      "id": 4770,
+      "username": "Aly1974",
+      "password": "usr27170",
+      "firstname": "Aly",
+      "lastname": "Ebrahim",
+      "address": "Temai El-Amdid",
+      "email": "4liebrahim@gmail.com",
+      "age": "25",
+      "role": "employee",
+      "late": [],
+      "attend": [],
+      "absent": []
+    },
+    {
+      "id": 7228,
+      "username": "Ahmed1654",
+      "password": "usr67270",
+      "firstname": "Ahmed",
+      "lastname": "Salem",
+      "address": "cairo",
+      "email": "ahmedsaled@gmail.com",
+      "age": "22",
+      "role": "employee",
+      "late": [],
+      "attend": [],
+      "absent": [
+        "2/13/2021",
+        "3/9/2021"
+      ]
+    }
+  ]
+}
